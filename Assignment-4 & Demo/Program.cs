@@ -269,6 +269,45 @@
             //}
             //Console.WriteLine($"Reversed string is : {reversed}");
             #endregion
+
+            #region Q6
+            //bool Falg1 = false;
+            //bool Falg2 = false;
+            //int start = 5;// for enter the while
+            //int end = 1;// for enter the while
+            //Console.WriteLine("Test Data : ");
+            //while (start > end || !Falg1 || !Falg2 || start < 0 || end < 0 )
+            //{
+            //    Console.Write("Input starting number of range: ");
+            //    Falg1 = int.TryParse(Console.ReadLine(), out start);
+            //    Console.Write("Input ending number of range : ");
+            //    Falg2 = int.TryParse(Console.ReadLine(), out end);
+            //}
+            //Console.Write($"Prime numbers between {start} and {end} is :  ");
+            //for (int i = start; i <= end; i++)
+            //{
+            //    bool isPrime = true;
+            //    if (i <= 1)
+            //    {
+            //        isPrime = false;
+            //    }
+            //    else
+            //    {
+            //        for (int j = 2; j <= Math.Sqrt(i); j++)
+            //        {
+            //            if (i % j == 0)
+            //            {
+            //                isPrime = false;
+            //                break;
+            //            }
+            //        }
+            //    }
+            //    if (isPrime)
+            //    {
+            //        Console.Write(i + " ");
+            //    }
+            //}
+            #endregion
             #endregion
         }
     }
