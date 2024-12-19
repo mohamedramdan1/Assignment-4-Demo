@@ -223,6 +223,29 @@
 
             //}
             #endregion
+
+            #region Q3
+            //int numbers;
+            //bool Flag;
+            //Console.Write("Enter The Number : ");
+            //Flag = int.TryParse(Console.ReadLine(), out numbers);
+            //while (!Flag || numbers < 0)
+            //{
+            //    Console.Write("Enter The Number : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out numbers);
+            //}
+            //Console.Write($"Even Numbers Between 1 to {numbers} : ");
+            //for (int i = 1; i <= numbers; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.Write($" {i}");
+
+            //    }
+            //}
+            #endregion
+
+            
             #endregion
         }
     }
