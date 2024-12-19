@@ -258,6 +258,17 @@
             //Console.WriteLine($"The result of {num}^{power} is: {result}");
 
             #endregion
+
+            #region Q5
+            //Console.Write("Enter the string : ");
+            //string name = Console.ReadLine();
+            //string reversed = " ";
+            //for (int i = name.Length - 1 ; i >=0; i--)
+            //{
+            //    reversed += name[i];
+            //}
+            //Console.WriteLine($"Reversed string is : {reversed}");
+            #endregion
             #endregion
         }
     }
