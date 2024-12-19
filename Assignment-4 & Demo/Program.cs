@@ -193,6 +193,26 @@
             //}
             #endregion
             #endregion
-        } 
+
+            #region Assignment
+
+            #region Q1
+            //int numbers;
+            //bool Flag;
+            //Console.Write("Enter The Number : ");
+            //Flag = int.TryParse(Console.ReadLine(), out numbers);
+            //while (!Flag || numbers < 0)
+            //{
+            //    Console.Write("Enter The Number : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out numbers);
+            //}
+            //Console.Write($"Numbers from 1 to {numbers} : ");
+            //for (int i = 0; i < numbers; i++)
+            //{
+            //    Console.Write($" {i + 1}");
+            //}
+            #endregion
+            #endregion
+        }
     }
 }
