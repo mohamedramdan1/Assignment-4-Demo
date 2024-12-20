@@ -418,21 +418,25 @@ namespace Assignment_4___Demo
 
             #region Q12
             //Console.Write("Enter the number of element in array = ");
-            //int n = int.Parse(Console.ReadLine());
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n < 0)
+            //{
+            //    Console.Write("Please enter a valid positive number for the array size: ");
+            //}
             //int[] arr = new int[n];
             //Console.WriteLine("Enter the elements of the array:");
             //for (int i = 0; i < arr.Length;)
             //{
             //    bool Flag;
-            //    Console.Write($"Element {i+1}  : ");
-            //    Flag = int.TryParse(Console.ReadLine() , out arr[i]);
-            //    if (Flag) 
+            //    Console.Write($"Element {i + 1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    if (Flag)
             //    {
             //        i++;
             //    }
             //}
             //int sum = 0;
-            //for (int i = 0; i < arr.Length;i++)
+            //for (int i = 0; i < arr.Length; i++)
             //{
             //    sum += arr[i];
             //}
@@ -442,13 +446,16 @@ namespace Assignment_4___Demo
 
             #region Q13
             //Console.Write("Enter the number of element in array = ");
-            //int n = int.Parse(Console.ReadLine());// size
-
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            //{
+            //    Console.Write("Please enter a valid positive number for the array size: ");
+            //}
             //int[] arr1 = new int[n];
             //int[] arr2 = new int[n];
 
             //Console.WriteLine("Enter elements for the first array : ");
-            //for (int i = 0; i < n; )
+            //for (int i = 0; i < n;)
             //{
             //    bool Flag;
             //    Console.Write($"Element {i + 1}  : ");
@@ -459,7 +466,7 @@ namespace Assignment_4___Demo
             //    }
             //}
             //Console.WriteLine("Enter elements for the second array : ");
-            //for (int i = 0; i < n; )
+            //for (int i = 0; i < n;)
             //{
             //    bool Flag;
             //    Console.Write($"Element {i + 1}  : ");
@@ -469,7 +476,7 @@ namespace Assignment_4___Demo
             //        i++;
             //    }
             //}
-            //int[] mergedArray = new int[n+n];// merge the two array
+            //int[] mergedArray = new int[n + n];// merge the two array
             //for (int i = 0; i < n; i++)
             //{
             //    mergedArray[i] = arr1[i];
@@ -481,6 +488,52 @@ namespace Assignment_4___Demo
             //for (int i = 0; i < mergedArray.Length; i++)
             //{
             //    Console.Write($"{mergedArray[i]} ");
+            //}
+            #endregion
+
+            #region Q14
+            //Console.Write("Enter the number of element in array = ");
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            //{
+            //    Console.Write("Please enter a valid positive number for the array size: ");
+            //}
+            //int[] arr = new int[n];
+
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < arr.Length;)
+            //{
+            //    bool Flag;
+            //    Console.Write($"Element {i + 1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    if (Flag)
+            //    {
+            //        i++;
+            //    }
+            //}
+            //bool[] repeat = new bool[n];
+
+            //for (int i = 0; i < n; i++)// intilize repeted array
+            //{
+            //    repeat[i] = false;
+            //}
+            //Console.WriteLine("Frequency of each element in the array:");
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (repeat[i])
+            //    {
+            //        continue;
+            //    }
+            //    int count = 1;
+            //    for (int j = i+1; j <arr.Length ; j++)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            count++;
+            //            repeat[j] = true;
+            //        }
+            //    }
+            //    Console.WriteLine($"Element {arr[i+1]} repeated : {count} times");
             //}
             #endregion
             #endregion
