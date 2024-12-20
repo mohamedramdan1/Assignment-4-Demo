@@ -1,4 +1,5 @@
-﻿using System.Security;
+﻿using System;
+using System.Security;
 using System.Text;
 
 namespace Assignment_4___Demo
@@ -703,6 +704,39 @@ namespace Assignment_4___Demo
             //    }
             //    Console.WriteLine(" ");
             //}
+            #endregion
+
+            #region Q19
+            //Console.Write("Enter the number of element in array = ");
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            //{
+            //    Console.Write("Please enter a valid positive number for the array size : ");
+            //}
+            //int[] arr = new int[n];
+
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < arr.Length;)
+            //{
+            //    bool Flag;
+            //    Console.Write($"Element {i + 1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    if (Flag)
+            //    {
+            //        i++;
+            //    }
+            //}
+            //Console.Write("The array in reverse : ");
+            //for (int i = arr.Length - 1; i >= 0; i--)
+            //{
+            //    Console.Write($"{arr[i]} ");
+            //}
+            ////or using array method
+            ////Array.Reverse(arr);
+            ////for (int i = 0; i < arr.Length; i++)
+            ////{
+            ////    Console.Write($"{arr[i]} ");
+            ////}
             #endregion
             #endregion
         }
