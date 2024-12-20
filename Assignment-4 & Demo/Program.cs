@@ -1,4 +1,6 @@
-﻿namespace Assignment_4___Demo
+﻿using System.Text;
+
+namespace Assignment_4___Demo
 {
     internal class Program
     {
@@ -358,6 +360,25 @@
             //    }
             //    Console.WriteLine(); // Move to the next  row
             //}
+            #endregion
+
+            #region Q9
+            //Console.Write("Enter the String : ");
+            //String name = Console.ReadLine();
+            //Console.Write("Enter the starting index for the substring : ");
+            //int x; // start index
+            //while (!int.TryParse(Console.ReadLine(), out x) || x < 0 || x >= name.Length)
+            //{
+            //    Console.Write("Please Enter the Valid starting index: ");
+            //}
+            //Console.Write("Enter the  lenght : ");
+            //int y; // lenght of index
+            //while (!int.TryParse(Console.ReadLine(), out y) || y < 0 || (x + y > name.Length))
+            //{
+            //    Console.Write("Please Enter the Valid Lenght index: ");
+            //}
+            //string substring = name.Substring(x, y);
+            //Console.WriteLine($"The extracted substring is :{substring} ");
             #endregion
             #endregion
         }
