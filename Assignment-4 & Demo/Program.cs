@@ -536,6 +536,44 @@ namespace Assignment_4___Demo
             //    Console.WriteLine($"Element {arr[i+1]} repeated : {count} times");
             //}
             #endregion
+
+            #region Q15
+            //Console.Write("Enter the number of element in array = ");
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            //{
+            //    Console.Write("Please enter a valid positive number for the array size: ");
+            //}
+            //int[] arr = new int[n];
+
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < arr.Length;)
+            //{
+            //    bool Flag;
+            //    Console.Write($"Element {i + 1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    if (Flag)
+            //    {
+            //        i++;
+            //    }
+            //}
+            //int max = arr[0];
+            //int min = arr[0];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //    {
+            //        max = arr[i];
+            //    }
+            //    if (arr[i] < min)
+            //    {
+            //        min = arr[i];
+            //    }
+            //}
+            //Console.WriteLine($"The maximum element in the array is: {max}");
+            //Console.WriteLine($"The minimum element in the array is: {min}");
+            #endregion
             #endregion
         }
     }
