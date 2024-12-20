@@ -439,6 +439,50 @@ namespace Assignment_4___Demo
             //Console.Write($"The sum of all elements in the array is: {sum}");
 
             #endregion
+
+            #region Q13
+            //Console.Write("Enter the number of element in array = ");
+            //int n = int.Parse(Console.ReadLine());// size
+
+            //int[] arr1 = new int[n];
+            //int[] arr2 = new int[n];
+
+            //Console.WriteLine("Enter elements for the first array : ");
+            //for (int i = 0; i < n; )
+            //{
+            //    bool Flag;
+            //    Console.Write($"Element {i + 1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out arr1[i]);
+            //    if (Flag)
+            //    {
+            //        i++;
+            //    }
+            //}
+            //Console.WriteLine("Enter elements for the second array : ");
+            //for (int i = 0; i < n; )
+            //{
+            //    bool Flag;
+            //    Console.Write($"Element {i + 1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out arr2[i]);
+            //    if (Flag)
+            //    {
+            //        i++;
+            //    }
+            //}
+            //int[] mergedArray = new int[n+n];// merge the two array
+            //for (int i = 0; i < n; i++)
+            //{
+            //    mergedArray[i] = arr1[i];
+            //    mergedArray[n + i] = arr2[i];
+            //}
+            //Array.Sort(mergedArray); // sort array asc
+
+            //Console.Write("The merged array in ascending is : ");
+            //for (int i = 0; i < mergedArray.Length; i++)
+            //{
+            //    Console.Write($"{mergedArray[i]} ");
+            //}
+            #endregion
             #endregion
         }
     }
