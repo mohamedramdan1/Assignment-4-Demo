@@ -389,6 +389,31 @@ namespace Assignment_4___Demo
             //string result = input01 + input02;
             //Console.Write($"The string combination is : {result }");
             #endregion
+
+            #region Q11
+            //Console.Write("Enter the size of the matrix (n): ");
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            //{
+            //    Console.Write("Enter the size postive correct of the matrix (n): ");
+            //}
+            //Console.WriteLine($"Identity matrix {n}x{n}:");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        if (i == j)
+            //        {
+            //            Console.Write("1 ");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("0 ");
+            //        }
+            //    }
+            //    Console.WriteLine(); // Move to the next  row
+            //}
+            #endregion
             #endregion
         }
     }
