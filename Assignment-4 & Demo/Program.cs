@@ -380,6 +380,15 @@ namespace Assignment_4___Demo
             //string substring = name.Substring(x, y);
             //Console.WriteLine($"The extracted substring is :{substring} ");
             #endregion
+
+            #region Q10
+            //Console.Write("Enter the First String : ");
+            //String input01 = Console.ReadLine();
+            //Console.Write("Enter the First String : ");
+            //String input02 = Console.ReadLine();
+            //string result = input01 + input02;
+            //Console.Write($"The string combination is : {result }");
+            #endregion
             #endregion
         }
     }
