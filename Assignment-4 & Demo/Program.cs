@@ -606,8 +606,48 @@ namespace Assignment_4___Demo
             //        Array.Reverse(arr);
             //    }
             //}
-            
+
             //Console.WriteLine($"The second maximum element in the array is: {arr[1]}");
+            #endregion
+
+            #region Q17
+            //Console.Write("Enter the number of element in array = ");
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            //{
+            //    Console.Write("Please enter a valid positive number for the array size: ");
+            //}
+            //int[] arr = new int[n];
+
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < arr.Length;)
+            //{
+            //    bool Flag;
+            //    Console.Write($"Element {i + 1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    if (Flag)
+            //    {
+            //        i++;
+            //    }
+            //}
+            //int maxdistance = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    for (int j = arr.Length - 1; j > i; j--)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            int dist = j - i - 1;
+            //            if (dist > maxdistance)
+            //            {
+            //                maxdistance = dist;
+            //            }
+            //            break; // stop loop if we find the longest  distnce
+            //        }
+            //    }
+            //}
+            //Console.WriteLine($"The longest distance between two equal cells is: {maxdistance}");
+
             #endregion
             #endregion
         }
