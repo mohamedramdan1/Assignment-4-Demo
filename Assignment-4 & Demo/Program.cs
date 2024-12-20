@@ -574,6 +574,41 @@ namespace Assignment_4___Demo
             //Console.WriteLine($"The maximum element in the array is: {max}");
             //Console.WriteLine($"The minimum element in the array is: {min}");
             #endregion
+
+            #region Q16
+            //Console.Write("Enter the number of element in array = ");
+            //int n;
+            //while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            //{
+            //    Console.Write("Please enter a valid positive number for the array size: ");
+            //}
+            //int[] arr = new int[n];
+
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < arr.Length;)
+            //{
+            //    bool Flag;
+            //    Console.Write($"Element {i + 1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    if (Flag)
+            //    {
+            //        i++;
+            //    }
+            //}
+
+            //int max = arr[0];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //    {
+            //        max = arr[i];
+            //        Array.Sort(arr);
+            //        Array.Reverse(arr);
+            //    }
+            //}
+            
+            //Console.WriteLine($"The second maximum element in the array is: {arr[1]}");
+            #endregion
             #endregion
         }
     }
