@@ -276,13 +276,15 @@
             //int start = 5;// for enter the while
             //int end = 1;// for enter the while
             //Console.WriteLine("Test Data : ");
-            //while (start > end || !Falg1 || !Falg2 || start < 0 || end < 0 )
+            //while (start > end || !Falg1 || !Falg2 || start < 0 || end < 0)
             //{
             //    Console.Write("Input starting number of range: ");
             //    Falg1 = int.TryParse(Console.ReadLine(), out start);
             //    Console.Write("Input ending number of range : ");
             //    Falg2 = int.TryParse(Console.ReadLine(), out end);
             //}
+            //Console.WriteLine("");
+            //Console.WriteLine("Expected Output :");
             //Console.Write($"Prime numbers between {start} and {end} is :  ");
             //for (int i = start; i <= end; i++)
             //{
@@ -307,6 +309,30 @@
             //        Console.Write(i + " ");
             //    }
             //}
+            #endregion
+
+            #region Q7
+            //int numbers;
+            //string binarynum = "";
+            //Console.Write("Enter a number to convert : ");
+            //while (!int.TryParse(Console.ReadLine(), out numbers) || numbers < 0)
+            //{
+            //    Console.Write("Enter a correct number to convert : ");
+            //}
+            //int num = numbers;
+            //if (numbers == 0)
+            //{
+            //    binarynum = "0";
+            //}
+            //else 
+            //{
+            //    while (numbers > 0) 
+            //    {
+            //        binarynum = (numbers % 2) + binarynum;
+            //        numbers /= 2;
+            //    }
+            //}
+            //Console.WriteLine($"The Binary of {num} is : {binarynum}");
             #endregion
             #endregion
         }
