@@ -649,6 +649,61 @@ namespace Assignment_4___Demo
             //Console.WriteLine($"The longest distance between two equal cells is: {maxdistance}");
 
             #endregion
+
+            #region Q18
+            //Console.Write("Enter the number of rows in array : ");
+            //int rows;
+            //while (!int.TryParse(Console.ReadLine(), out rows) || rows<=0)
+            //{
+            //    Console.Write("Enter the positive and valid number of rows: ");
+            //}
+            //Console.Write("Enter the number of columns in array : ");
+            //int column;
+            //while (!int.TryParse(Console.ReadLine(), out column) || column <= 0)
+            //{
+            //    Console.Write("Enter the positive and valid number of column : ");
+            //}
+            //int[,] arry01 = new int[rows, column];
+            //int[,] arry02 = new int[rows, column];
+
+            //Console.WriteLine("");
+            //Console.WriteLine("Enter the elements of the first array ");
+            //for (int i = 0; i < arry01.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Enter the rows {i + 1}");
+            //    for (int j = 0; j < arry01.GetLength(1);)
+            //    {
+            //        bool Flag;
+            //        Console.Write($"Enter the Element({j + 1}) :  ");
+            //        Flag = int.TryParse(Console.ReadLine(), out arry01[i, j]);
+            //        if (Flag && arry01[i, j] >= 0)
+            //        {
+            //            j++;
+            //        }
+            //    }
+            //}
+
+            //// copy to second array
+            //for (int i = 0; i < arry01.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < arry01.GetLength(1); j++)
+            //    {
+            //        arry02[i, j] = arry01[i, j];
+            //    }
+            //}
+
+            //// print second array
+            //Console.WriteLine("");
+            //Console.WriteLine("The second multidimensional array after copying from the first array is : ");
+            //for (int i = 0; i < arry02.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < arry02.GetLength(1); j++)
+            //    {
+            //        Console.Write(arry02[i, j] + " ");
+            //    }
+            //    Console.WriteLine(" ");
+            //}
+            #endregion
             #endregion
         }
     }
