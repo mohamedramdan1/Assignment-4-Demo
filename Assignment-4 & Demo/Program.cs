@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security;
+using System.Text;
 
 namespace Assignment_4___Demo
 {
@@ -413,6 +414,30 @@ namespace Assignment_4___Demo
             //    }
             //    Console.WriteLine(); // Move to the next  row
             //}
+            #endregion
+
+            #region Q12
+            //Console.Write("Enter the number of element in array = ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < arr.Length;)
+            //{
+            //    bool Flag;
+            //    Console.Write($"Element {i+1}  : ");
+            //    Flag = int.TryParse(Console.ReadLine() , out arr[i]);
+            //    if (Flag) 
+            //    {
+            //        i++;
+            //    }
+            //}
+            //int sum = 0;
+            //for (int i = 0; i < arr.Length;i++)
+            //{
+            //    sum += arr[i];
+            //}
+            //Console.Write($"The sum of all elements in the array is: {sum}");
+
             #endregion
             #endregion
         }
